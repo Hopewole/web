@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JS函数</title>
+    </head>
+    <body>
+        <script>
+            function hello(){
+                console.log("Hello World");
+            }
+            
+            function hello_with_return(){
+                return "Hello,World";
+            }
+
+            let a = hello_with_return();
+            console.log(a);
+            console.log(hello_with_return());
+
+            function hello_with_params(name){
+                console.log("hello," + name);
+            }
+
+            hello_with_params("如花");
+            hello_with_params("Alice");
+        </script>
+    </body>
+</html>
